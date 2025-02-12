@@ -1,0 +1,12 @@
+### GET-запрос для получения меню
+GET http://localhost:8081/menu
+Accept: application/json
+
+### POST-запрос для создания заказа
+POST http://localhost:8081/orders
+Content-Type: application/json
+
+{
+  "status": "Pending",
+  "totalAmount": 25.99
+}
